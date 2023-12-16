@@ -2,8 +2,8 @@
     position: relative;
     text-align: center;
     img {
-        width: 450px;
-        height: 300px;
+        width: 400px;
+        height: 250px;
         border-radius: 10px;
         object-fit: cover;
     }
@@ -49,6 +49,9 @@
 @media screen and (max-width: 767px) {
     .img{
         margin-bottom: 40px;
+        img{
+            width: 300px;
+        }
     }
     .info{
         text-align: center;

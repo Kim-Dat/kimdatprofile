@@ -64,9 +64,7 @@ function Skills() {
                                         </div>
                                         <span className={cx("year")}>{education.year}</span>
                                         <h3 className={cx("subtitle")}>{education.title}</h3>
-                                        <p className={cx("description")}>
-                                           {education.description}
-                                        </p>
+                                        <p className={cx("description")}>{education.description}</p>
                                     </div>
                                 </div>
                                 <div className="col-4">

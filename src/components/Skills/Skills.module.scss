@@ -1,4 +1,4 @@
-.skills-description{
+.skills-description {
     margin-top: -3.5rem;
     max-width: 700px;
     h3 {
@@ -6,7 +6,7 @@
         margin-bottom: 5px;
         color: var(--first-color);
     }
-    p{
+    p {
         color: var(--third-color);
     }
 }
@@ -42,8 +42,9 @@
     }
 }
 
-.education-img img{
-    width: 150px;
+.education-img img {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 .education-info {
@@ -57,7 +58,7 @@
         left: 55px;
         border-left: 2px solid var(--line-color);
     }
-    .icon{
+    .icon {
         position: absolute;
         left: 40px;
         top: -5px;
@@ -69,39 +70,39 @@
         text-align: center;
         line-height: 35px;
     }
-    .year{
+    .year {
         background-color: #ccc;
         font-size: var(--normal-fs);
         padding: 2px 10px;
         border-radius: 20px;
         font-weight: 600;
     }
-    .subtitle{
+    .subtitle {
         padding: 0 5px;
         font-size: 1.4rem;
         font-weight: 600;
         margin-block: 20px;
         color: var(--first-color);
     }
-    .description{
+    .description {
         font-size: var(--small-fs);
         line-height: 1.6rem;
         padding-right: 40px;
     }
 }
 @media screen and (max-width: 767px) {
-    .skills-description{
+    .skills-description {
         text-align: center;
     }
     .title {
         text-align: center;
-        h4{
+        h4 {
             margin-top: 20px;
         }
     }
-    .education-info{
+    .education-info {
         padding-left: 55px;
-        .description{
+        .description {
             padding: 0 20px;
         }
     }
