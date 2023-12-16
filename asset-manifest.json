@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/kimdatprofile/static/css/main.ed80600b.css",
-    "main.js": "/kimdatprofile/static/js/main.08c2707b.js",
-    "static/js/787.129e2781.chunk.js": "/kimdatprofile/static/js/787.129e2781.chunk.js",
+    "main.js": "/kimdatprofile/static/js/main.f0c1eee4.js",
     "index.html": "/kimdatprofile/index.html",
     "main.ed80600b.css.map": "/kimdatprofile/static/css/main.ed80600b.css.map",
-    "main.08c2707b.js.map": "/kimdatprofile/static/js/main.08c2707b.js.map",
-    "787.129e2781.chunk.js.map": "/kimdatprofile/static/js/787.129e2781.chunk.js.map"
+    "main.f0c1eee4.js.map": "/kimdatprofile/static/js/main.f0c1eee4.js.map"
   },
   "entrypoints": [
     "static/css/main.ed80600b.css",
-    "static/js/main.08c2707b.js"
+    "static/js/main.f0c1eee4.js"
   ]
 }
