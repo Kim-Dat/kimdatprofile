@@ -2,6 +2,7 @@ import { avatars } from "../../data";
 import SectionTitle from "../sectionTitle";
 import styles from "./About.module.scss";
 import classNames from "classnames/bind";
+import avatar from"../../utils/images/z5195346518906_7973465bb56e23df3f9436917b0d07f4.jpg"
 const cx = classNames.bind(styles);
 function About() {
     return (
@@ -11,11 +12,13 @@ function About() {
                 <div className="row">
                     <div className="col-12 col-lg-6 col-xl-6">
                         <div className={cx("img")}>
-                            <img src={avatars.about} alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 col-xl-6">
+                    
                         <div className={cx("info")}>
+                        
                             <div className={cx("description")}>
                                 <h3>I'm Dat</h3>
                                 <h4>My introduction</h4>

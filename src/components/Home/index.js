@@ -1,6 +1,7 @@
 import { avatars } from "../../data";
 import styles from "./Home.module.scss";
 import classNames from "classnames/bind";
+import avatar from "../../utils/images/z5195349064144_f2ccc84df5387882c34f1e7dbd9a3147.jpg"
 const cx = classNames.bind(styles);
 function Home() {
     return (
@@ -32,7 +33,7 @@ function Home() {
                     </div>
                     <div className="col-12 col-md-6 col-lg-5 col-xl-5">
                         <div className={cx("home-avatar")}>
-                            <img src={avatars.home} alt="avatar" />
+                            <img src={avatar} alt="avatar" />
                         </div>
                     </div>
                 </div>
